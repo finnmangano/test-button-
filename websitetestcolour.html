@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .button {
+                background-color: gainsboro;
+                border: none;
+                color: azure;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                transition-duration: 0.5s;
+            }
+
+            .button1 {
+                background-color: lightgray;
+                color: black;
+                border: 2px solid #555555;
+                border-radius: 5px;
+            }
+
+            .button1:hover {
+                background-color: #555555;
+                color: white;
+            }    
+        </style>
+        <script>
+            var colors = ["red", "orange", "yellow", "green", "lightblue", "darkblue", "pink", "purple", "white"];
+            var colorIndex = 0;
+        
+            function changeColor() {
+                var col = document.getElementById("body");
+                if (colorIndex >= colors.length) {
+                    colorIndex = 0;
+                }
+                col.style.backgroundColor = colors[colorIndex];
+                colorIndex++;
+            }
+        </script>
+        
+    </head>
+    <body id="body" style="text-align:center; padding-top: 375px;">
+        <h3>dont do what the button says!!! trust me...</h3>
+        <button onclick="changeColor();" class="button button1">please click me babe...</button>
+    </body>
+</html>
