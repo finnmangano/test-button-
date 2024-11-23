@@ -1,0 +1,42 @@
+#body {
+    text-align:center; 
+    padding-top: 375px;
+}
+
+.h1 {
+    text-align:center; 
+    max-width: auto;
+    font-size: larger;
+}
+
+.span {
+    font-size: small;
+}
+
+.button {
+    text-align: center;
+    padding-top: 375px;
+    background-color: gainsboro;
+    border: none;
+    color: azure;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.button1 {
+    background-color: lightgray;
+    color: black;
+    border: 2px solid #555555;
+    border-radius: 5px;
+}
+
+.button1:hover {
+    background-color: #555555;
+    color: white;
+}    
+
