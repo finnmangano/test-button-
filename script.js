@@ -1,5 +1,5 @@
 
-    let colors = ["red", "orange", "yellow", "green", "lightblue", "darkblue", "pink", "purple", "white"];
+    const colors = ["red", "orange", "yellow", "green", "lightblue", "darkblue", "pink", "purple", "white"];
     let colorIndex = 0;
 
     function changeColor() {
