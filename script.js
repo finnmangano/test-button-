@@ -1,9 +1,9 @@
 
-    var colors = ["red", "orange", "yellow", "green", "lightblue", "darkblue", "pink", "purple", "white"];
-    var colorIndex = 0;
+    let colors = ["red", "orange", "yellow", "green", "lightblue", "darkblue", "pink", "purple", "white"];
+    let colorIndex = 0;
 
     function changeColor() {
-        var col = document.getElementById("body");
+        const col = document.getElementById("body");
         if (colorIndex >= colors.length) {
             colorIndex = 0;
         }
